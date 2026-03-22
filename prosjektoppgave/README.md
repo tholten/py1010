@@ -1,4 +1,4 @@
-#STYRK: Et komplett og effektivt styrketreningsprogram
+# STYRK: Et komplett og effektivt styrketreningsprogram
 
 En selvdefinert prosjektoppgave i emnet PY1010 våren 2026
 Forfatter: Thomas Holten Enstad
