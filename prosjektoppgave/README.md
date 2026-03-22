@@ -1,7 +1,7 @@
 # STYRK: Et komplett og effektivt styrketreningsprogram
 
-En selvdefinert prosjektoppgave i emnet PY1010
-**Forfatter:** Thomas Holten Enstad
+En selvdefinert prosjektoppgave i emnet PY1010  
+**Forfatter:** Thomas Holten Enstad  
 **Dato**: 22.03.2026
 
 ## Bakgrunn:
@@ -15,7 +15,7 @@ Lag et komplett, helkropps styrketreningsprogram. For hver uke skal programmet l
 - lengde på pause mellom hver øvelse
 - lengde på programmet i antall uker
 
-**Hovedøvelser:** knebøy, hangups, benkpress
+**Hovedøvelser:** knebøy, hangups, benkpress  
 **Støtteøvelser:** dips, skulderpress, leg curl, shrugs og biceps curl
 
 Informasjon om brukeren skal kunne hentes ut fra en .json-fil eller baseres på brukerinput. Etter at programmet er ferdig generert, skal det kunne skrives ut til en tekstfil for enkel utskrift. Sørg for fin formattering og lesbarhet.
