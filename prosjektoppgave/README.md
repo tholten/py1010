@@ -5,12 +5,12 @@ En selvdefinert prosjektoppgave i emnet PY1010
 **Dato**: 22.03.2026
 
 ## Bakgrunn
-Styrketrening er en av mine største interesser og har vært det de siste 18 årene. Denne kompetansen ønsker jeg å dele med flere. Særlig er det viktig for meg å dele det med venner og familiemedlemmer som begynner å bli godt voksne, siden bevaring av muskelmasse blir vanskeligere med alderen. Styrketrening er en givende aktivitet som ikke bare er helsebringende, men som også vil være motiverende da man ser resultater av arbeidet. Det er derfor viktig med et effektivt treningsrpogram. Det vil fostre motivasjon.
+Styrketrening er en stor interesse og har vært det de siste 18 årene. Kompetansen jeg sitter med ønsker jeg å dele med flere. Særlig er det viktig for meg å dele det med venner og familiemedlemmer som begynner å bli godt voksne, siden opprettholdelse og økning av muskelmasse blir vanskeligere med alderen. Styrketrening er en givende aktivitet som ikke bare er helsebringende, men som også vil være motiverende da man ser resultater av arbeidet. Det er derfor viktig med et effektivt treningsrpogram. Det vil fostre motivasjon.
 
 ## Beskrivelse av oppgaven
 Lag et komplett, helkropps styrketreningsprogram. For hver uke skal programmet liste opp øvelser med tilhørende vekt, sett og repetisjoner. Programmet skal ha en gradvis, ukentlig progresjon som skal kunne justeres mellom enkelt, middels og vanskelig av brukeren selv. Vektene som brukes i programmet skal være basert på brukerens personlige rekord i gitte øvelser.
 
-### Brukeren skal også kunne bestemme:
+### Brukeren skal også kunne bestemme
 - startdato for treningsprogrammet
 - lengde på pause mellom hver øvelse
 - lengde på programmet i antall uker
