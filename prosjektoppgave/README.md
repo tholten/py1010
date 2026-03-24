@@ -19,3 +19,5 @@ Lag et komplett, helkropps styrketreningsprogram. For hver uke skal programmet l
 **Støtteøvelser:** dips, skulderpress, leg curl, shrugs og biceps curl
 
 Informasjon om brukeren skal kunne hentes ut fra en .json-fil eller baseres på brukerinput. Etter at programmet er ferdig generert, skal det kunne skrives ut til en tekstfil for enkel utskrift. Sørg for fin formattering og lesbarhet.
+
+Sørg for å inkludere: arrays, vektoriserte beregninger, if/else-tester, for- eller while-løkke, lese data fra fil, skrive data til fil, plotting, og egendefinerte funksjoner.
