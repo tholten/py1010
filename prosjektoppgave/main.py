@@ -8,11 +8,12 @@ Spring of 2026
 # Import necessary libraries
 import json
 from pathlib import Path
+import matplotlib.pyplot as plt
 
 '''
 The Program class will handles most of the data processing.
 It separates concerns, having logic inside the class, and most of the
-read/write to file and program flow outside of the class.
+read/write to file, program flow and plotting outside of the class.
 '''
 class Program:
 
@@ -304,7 +305,39 @@ class Program:
         self.merging_main_and_supp_exercises()
         self.write_user_inputs_to_file()
         self.full()
+        make_graph()
         print(self.dialogue()["success"])
+
+def make_graph():
+    labels = ["Knebøy", "Benkpress", "Hangups"]
+
+    start = [
+        float(program.squat_pr), # To not encounter any issues, make sure it's a float.
+        float(program.bench_press_pr),
+        float(program.hangups_pr)
+    ]
+
+    # Values at the end of the training program (hopefully)
+    end = [
+        float(program.squat_pr) * float(program.progression_value()),
+        float(program.bench_press_pr) * float(program.progression_value()),
+        float(program.hangups_pr) * float(program.progression_value())
+    ]
+
+    # Posisjonen til stolpene (x-akse)
+    x = [0, 1, 2]
+    width = 0.3 
+
+    # Place the start-bar slightly to the left, and end-bar to the right
+    plt.bar([i - width/2 for i in x], start, width = width, label="Start")
+    plt.bar([i + width/2 for i in x], end, width = width, label="Slutt")
+
+    plt.xticks(x, labels) # Name under each bar
+    plt.ylabel("Personlig rekord")
+    plt.title("Styrkeutvikling")
+    plt.legend() # Show explanation
+    plt.show() # Show the graph
+
 
 '''
 Ask user if they want to overwrite existing input.json
